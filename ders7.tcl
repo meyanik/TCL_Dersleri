@@ -10,7 +10,7 @@ puts "$Z_LABEL $Z"
 puts "$Y degerinin karekoku = [expr sqrt($Y)]\n"
 
 puts "oncelik kurallarina bagli olarak \"5 + -3 * 4\"   =: [expr -3 * 4 + 5]"
-puts "Because of the parentheses      \"(5 + -3) * 4\"  =: [expr (5 + -3) * 4]"
+puts "Parantezlere dikkat ediniz      \"(5 + -3) * 4\"  =: [expr (5 + -3) * 4]"
 
 puts "\n.................\n \" ve \{ uzerine birkac ornege daha bakalim\n.................\n"
 puts {$Z_LABEL [expr $Y + $X]}
