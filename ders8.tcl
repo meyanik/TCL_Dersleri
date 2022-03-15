@@ -1,6 +1,4 @@
 
-;#BU DERS DUZENLENECEK!!!!
-
 ;# karsilastiracagimiz degerler set edilir
 
 set x "bir";
