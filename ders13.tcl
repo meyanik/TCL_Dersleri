@@ -11,7 +11,7 @@ proc fonksiyonum {degisken1 {degisken2 ""} {args ""}} {
       puts "Fonksiyona iki degisken verildi- $degisken1 ve $degisken2";
       return 2;
       } else {
-      puts "Fonksiyona uc degisken verildi - $degisken1 ve $degisken2 ve $args";
+      puts "Fonksiyona fazla degisken verildi - $degisken1 ve $degisken2 ve $args";
       return "daha fazla";
       }
     }
